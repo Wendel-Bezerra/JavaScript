@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Título da Página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        p {
+            margin: 20px;
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        #console {
+            margin: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Página JavaScript</h1>
+    <p>Esta é uma página HTML que inclui um script JavaScript.</p>
+
+    <div id="console">
+        <script>
+          
+            var a = 10;
+            var b = 5;
+            var c = 1;
+            var d;
+
+
+            c = b--;
+            b = a++;
+            a = 5 + "1";
+            d = "1" + "1";
+
+           
+            document.write("Valor de a após operações: " + a+"<br>");
+            document.write("Valor de b após operações: " + b+"<br>");
+            document.write("Valor de c após operações: " + c+"<br>");
+            document.write("Valor de d após operações: " + d+"<br>");
+
+            
+            var autor = "Wendel Campos Bezerra,Adriano Abreu De Almeida";
+            var palavraChave = "JavaScript";
+            var descricao = "Atividades sobre JavaScript";
+            var tituloPagina = "JavaScript";
+
+         
+            document.write("Autor: " + autor +"<br>");
+            document.write("Palavra-chave: " + palavraChave +"<br>");
+            document.write("Descrição: " + descricao +"<br>");
+        </script>
+    </div>
+</body>
+</html>
