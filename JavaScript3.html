@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+            var autor = "Wendel Campos Bezerra,Adriano Abreu De Almeida";
+            var palavraChave = "JavaScript";
+            var descricao = "Atividades sobre JavaScript";
+            var tituloPagina = "JavaScript";
+
+        function mostrarTabuada() {
+            
+            var numero = prompt("Digite um número:");
+
+            numero = parseFloat(numero);
+
+            if (!isNaN(numero)) {
+                var tabuada = "Tabuada de " + numero + ":\n";
+                for (var i = 1; i <= 10; i++) {
+                    tabuada += numero + " x " + i + " = " + (numero * i) + "\n";
+                }
+                alert(tabuada);
+            } else {
+                alert("Por favor, insira um número válido.");
+            }
+        }
+    </script>
+
+    <h1>Tabuada em JavaScript</h1>
+    <button onclick="mostrarTabuada()">Mostrar Tabuada</button>
+</body>
+</html>
